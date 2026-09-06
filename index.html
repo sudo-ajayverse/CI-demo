@@ -3,122 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CI/CD with GitHub Actions</title>
+    <title>Experiment 3: GitHub Actions CI/CD</title>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
-
         body {
-            background-color: #ffffff;
-            color: #333333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #000000;
-            margin-bottom: 15px;
-        }
-
-        .divider {
-            width: 50px;
-            height: 4px;
-            background-color: #0066cc;
-            margin: 0 auto 25px auto;
-            border-radius: 2px;
-        }
-
-        .status {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #2e7d32;
-            margin-bottom: 20px;
-        }
-
-        .description {
-            font-size: 1rem;
-            color: #555555;
-            margin-bottom: 30px;
-        }
-
-        .description a {
-            color: #0066cc;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .card {
-            background-color: #fafafa;
-            border: 1px solid #eaeaea;
-            border-radius: 12px;
-            padding: 30px 40px;
-            max-width: 450px;
-            width: 100%;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-            margin-bottom: 40px;
-            text-align: left;
-        }
-
-        .card-header {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: #111111;
-            margin-bottom: 15px;
-        }
-
-        .card p {
-            color: #444444;
-            font-size: 0.95rem;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            color: #333;
             line-height: 1.6;
-            margin-bottom: 12px;
         }
-
-        .card p.highlight {
-            color: #2e7d32;
-            font-weight: 600;
-            margin-bottom: 0;
+        h1 {
+            color: #1a73e8;
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 8px;
         }
-
-        footer {
-            font-size: 0.85rem;
-            color: #777777;
+        .section {
+            margin-bottom: 24px;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: #202124;
+        }
+        .card {
+            background-color: #f8f9fa;
+            border-left: 4px solid #34a853;
+            padding: 15px;
+            border-radius: 4px;
         }
     </style>
 </head>
 <body>
 
-    <h1>CI/CD with GitHub Actions</h1>
-    <div class="divider"></div>
+    <h1>Experiment No. 3</h1>
 
-    <div class="status">Deployment Successful!</div>
-    <p class="description">This is a simple static website deployed using <a href="#">GitHub Actions CI/CD</a>.</p>
-
-    <div class="card">
-        <div class="card-header">
-            <span>🚀</span>
-            <span>Welcome!</span>
-        </div>
-        <p>Your site has been built and deployed automatically.</p>
-        <p class="highlight">CI/CD is working perfectly.</p>
+    <div class="section">
+        <div class="section-title">Aim:</div>
+        <p>To set up a Continuous Integration Pipeline using GitHub Actions.</p>
     </div>
 
-    <footer>
-        © 2026 CI/CD Demo. All rights reserved.
-    </footer>
+    <div class="section">
+        <div class="section-title">Status:</div>
+        <div class="card">
+            <strong>✅ Pipeline Status: SUCCESS</strong><br>
+            The build and deployment workflow was executed automatically via GitHub Actions.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Conclusion:</div>
+        <p>The static HTML page was successfully committed, built, and deployed to GitHub Pages via automated workflow triggers.</p>
+    </div>
 
 </body>
 </html>
